@@ -11,6 +11,10 @@ while True:
     elif command == "list":
         print("Your Tasks:", todo_list)
 
+    elif command == "clear":
+        todo_list.clear()
+        print("All tasks deleted.")
+
     elif command == "exit":
         break
 
